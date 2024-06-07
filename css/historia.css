@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+  }    
+  
+  header{
+    background-color: yellow;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+
+  
+  .contenedor_limite{
+    background-color: blue;
+    max-width: 1300px; 
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    border: 5px solid ;
+    border-radius: 10px;
+    
+}
+
+.contenedor_limite h2{
+   text-align: left;
+   color: aliceblue;
+   margin: 10px;
+   
+}
+
+.contenedor_limite1{
+    background-color: cadetblue;
+    max-width: 1300px; 
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    border: 5px solid ;
+    border-radius: 10px;
+}
+
+.padre1{
+  display: flex;
+  justify-content: space-evenly;
+  
+
+  
+
+}
+
+.contenedor_limite1 h2{
+   text-align: left;
+   margin: 10px;
+}
+  .card{
+    background-color: whitesmoke;
+    width:300px;
+    border:5px solid yellow;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+  
+
+  
+    
+}
+
+.card h3{
+    text-align: left;
+}
+.card1{
+    background-color: yellow;
+    width:300px;
+    border:5px solid white;
+    border-radius: 10px;
+    padding: 25px 20px 25px 25px;
+    margin: 0 auto;
+    text-align: center;  
+}
+
+section{
+    margin: 50px;
+
+    
+}
+.card1 img{
+    width: 100%;
+}
+.card img{
+    width: 100%;
+}
+
+.card1 p{
+    background-color:#2F58E5;
+    color: whitesmoke;
+}
+
+.card1 h3{
+    text-align: left;
+}
+.card p{
+    background-color: aqua;
+   
+}
+
+  nav{
+    color: aliceblue;
+  }
+
+  nav li{
+    list-style: none;
+    display: inline;
+    
+  }
+
+  nav a{
+    text-decoration: none;
+  }
+
+  footer{
+    background-color: yellow;
+
+  }
+
+footer a{
+    text-decoration: none;
+}
+
+nav li :hover{
+  color: pink;
+  background-color: blue;
+}
+
+
